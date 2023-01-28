@@ -1,7 +1,12 @@
-function App() {
+import React from "react";
+import Main from "./pages/Main";
+
+const App = () => {
   return (
-    <h1 className="text-3xl font-bold underline text-red-300">Hello world!</h1>
+    <div className="bg-gray-800 min-h-screen flex justify-center items-center">
+      <Main />
+    </div>
   );
-}
+};
 
 export default App;
