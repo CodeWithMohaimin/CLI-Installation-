@@ -1,11 +1,16 @@
 import React from "react";
 import Data from "../data/data.json";
+import { useNavigate } from "react-router-dom";
 
-const Main = () => {
+const Home = () => {
+  const navigate = useNavigate();
   return (
     <div className=" flex justify-center items-center flex-wrap gap-2 max-w-5xl m-auto w-full">
       {Data.map((data) => (
         <div
+          onClick={() => {
+            navigate(data.navigateUrl);
+          }}
           className="bg-gray-800 max-w-xs rounded-lg p-4 delay-100 hover:bg-gray-700 cursor-pointer flex gap-4 items-center hover:scale-105 duration-150 border-l-2 border-b-2 border-gray-700"
           key={data.id}
         >
@@ -30,4 +35,4 @@ const Main = () => {
   );
 };
 
-export default Main;
+export default Home;
