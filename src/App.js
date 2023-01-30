@@ -3,7 +3,7 @@ import Main from "./pages/Main";
 
 const App = () => {
   return (
-    <div className="bg-gray-800 min-h-screen flex justify-center items-center">
+    <div className="bg-gray-900 min-h-screen flex justify-center items-center bg-gradient-to-r from-gray-900 via-gray-500 to-gray-900">
       <Main />
     </div>
   );
