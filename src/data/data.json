@@ -29,10 +29,10 @@
   },
   {
     "id": "5",
-    "navigateUrl": "/meteor",
-    "icon": "images/meteor.png",
-    "heading": "Meteor",
-    "description": "The full stack Javascript framework for developing cross-platform app"
+    "navigateUrl": "/angular",
+    "icon": "images/angular.png",
+    "heading": "Angular",
+    "description": "Platform for building mobile and desktop web applications"
   },
   {
     "id": "6",
@@ -57,7 +57,7 @@
   },
   {
     "id": "9",
-    "navigateUrl": "ruby",
+    "navigateUrl": "/rubyRails",
     "icon": "images/ruby.png",
     "heading": "Ruby on Rails",
     "description": "Full stack framework with all the tools needed to build web apps."
@@ -71,9 +71,9 @@
   },
   {
     "id": "11",
-    "navigateUrl": "/angular",
-    "icon": "images/angular.png",
-    "heading": "Angular",
-    "description": "Platform for building mobile and desktop web applications"
+    "navigateUrl": "/meteor",
+    "icon": "images/meteor.png",
+    "heading": "Meteor",
+    "description": "The full stack Javascript framework for developing cross-platform app"
   }
 ]
