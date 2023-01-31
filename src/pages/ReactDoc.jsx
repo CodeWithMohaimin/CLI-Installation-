@@ -1,6 +1,7 @@
 import React from "react";
 import { GoAlert } from "react-icons/go";
 import Aside from "../components/Aside";
+import Terminal from "../components/Terminal";
 
 const ReactDoc = () => {
   return (
@@ -33,6 +34,7 @@ const ReactDoc = () => {
             PostCSS are configured.
           </p>
         </div>
+        <Terminal />
       </div>
     </div>
   );
