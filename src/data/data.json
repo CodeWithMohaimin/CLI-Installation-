@@ -15,10 +15,10 @@
   },
   {
     "id": "3",
-    "navigateUrl": "/svelte",
-    "icon": "images/svelte.png",
-    "heading": "SvelteKit",
-    "description": "The faster way to build apps of all sizes with Svelte.js"
+    "navigateUrl": "/react-router",
+    "icon": "images/react-router.png",
+    "heading": "React Router",
+    "description": "Use React Router to Route SPA pages"
   },
   {
     "id": "4",
@@ -75,5 +75,12 @@
     "icon": "images/meteor.png",
     "heading": "Meteor",
     "description": "The full stack Javascript framework for developing cross-platform app"
+  },
+  {
+    "id": "12",
+    "navigateUrl": "/svelte",
+    "icon": "images/svelte.png",
+    "heading": "SvelteKit",
+    "description": "The faster way to build apps of all sizes with Svelte.js"
   }
 ]
