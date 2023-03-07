@@ -1,5 +1,12 @@
 [
   {
+    "id": "0",
+    "navigateUrl": "/blogs",
+    "icon": "images/blogs.png",
+    "heading": "Blogs",
+    "description": "The most effective blogs for developers"
+  },
+  {
     "id": "1",
     "navigateUrl": "/react",
     "icon": "images/react.png",

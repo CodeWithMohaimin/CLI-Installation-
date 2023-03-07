@@ -16,6 +16,7 @@ import RubyRailsDoc from "./pages/RubyRailsDoc";
 import AdonisJsDoc from "./pages/AdonisJsDoc";
 import AngularDoc from "./pages/AngularDoc";
 import ReactRouter from "./pages/ReactRouter";
+import Blogs from "./pages/Blogs";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -35,6 +36,7 @@ root.render(
       <Route path="/adonis" element={<AdonisJsDoc />} />
       <Route path="/angular" element={<AngularDoc />} />
       <Route path="/react-router" element={<ReactRouter />} />
+      <Route path="/blogs" element={<Blogs />} />
     </Routes>
   </BrowserRouter>
 );
