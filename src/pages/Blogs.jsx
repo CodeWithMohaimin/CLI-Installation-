@@ -1,7 +1,6 @@
 import React from "react";
 import Aside from "../components/Aside";
 import BlogsData from "../data/blogs.json";
-import { BiRightArrow, BiLeftArrow } from "react-icons/bi";
 
 const Blogs = () => {
   return (
@@ -10,26 +9,32 @@ const Blogs = () => {
         <Aside />
         {/* -------------------------- */}
         <div className="-z-10 bg-gradient-to-r from-gray-900 via-gray-500 to-gray-900 text-center sticky top-0 left-0 w-full">
-          {BlogsData.map((blog) => (
-            <div key={blog.id}>
-              <div className="px-4 max-w-5xl mt-4 text-left m-auto flex items-start">
-                <p>
-                  <BiLeftArrow className="text-xl text-red-300 inline" />
-                </p>
-                <h1 className="text-red-300 text-xl">{blog.id}</h1>
-                <p>
-                  <BiRightArrow className="text-xl mr-1 text-red-300 inline md:mr-3" />
-                </p>
-                <h2 className="text-blue-300 md:text-2xl text-xl">
+          {BlogsData.map((blog, index) => (
+            <div key={index}>
+              <div className="px-4 max-w-5xl mt-4 text-left m-auto">
+                <h1 className="text-blue-300 md:text-2xl text-xl">
                   {blog.title}
-                </h2>
+                </h1>
+                <a
+                  className="cursor-pointer text-red-300"
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://www.facebook.com/entrptaher"
+                >
+                  {blog.writer}
+                </a>
               </div>
-              <div className="px-4 max-w-5xl mt-4 text-left m-auto text-gray-300">
+              <div className="text-gray-300 max-w-5xl text-left m-auto md:px-6 px-2">
                 {blog.innerText.map((item) => (
                   <div key={item.id}>
-                    <h1>
-                      {item.innerTitle} {item.description}
-                    </h1>
+                    <p className="mt-4 text-blue-200">{item.innerTitle}</p>
+                    {item.description.map((list, index) => (
+                      <ul key={index}>
+                        <li className="border-b-2 border-gray-500 mb-2 inline-block ml-4">
+                          {list.listItem}
+                        </li>
+                      </ul>
+                    ))}
                   </div>
                 ))}
               </div>
