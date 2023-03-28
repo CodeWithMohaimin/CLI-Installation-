@@ -17,12 +17,15 @@ import AdonisJsDoc from "./pages/AdonisJsDoc";
 import AngularDoc from "./pages/AngularDoc";
 import ReactRouter from "./pages/ReactRouter";
 import Blogs from "./pages/Blogs";
+import ErrorPage from "./pages/ErrorPage";
+import Portfolio from "./pages/Portfolio";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
     <CTAHome />
     <Routes>
+      <Route path="*" element={<ErrorPage />} />
       <Route path="/" element={<App />} />
       <Route path="/react" element={<ReactDoc />} />
       <Route path="/vite" element={<ViteDoc />} />
@@ -37,6 +40,7 @@ root.render(
       <Route path="/angular" element={<AngularDoc />} />
       <Route path="/react-router" element={<ReactRouter />} />
       <Route path="/blogs" element={<Blogs />} />
+      <Route path="/portfolio" element={<Portfolio />} />
     </Routes>
   </BrowserRouter>
 );
