@@ -1,4 +1,5 @@
 import React from "react";
+import Commands from "./Commands";
 
 const TerminalBox = () => {
   return (
@@ -7,6 +8,11 @@ const TerminalBox = () => {
         <h1 className="border-b-2 border-gray-400 pb-2 text-xl md:text-2xl font-semibold text-gray-300 select-none">
           Create your project
         </h1>
+        <div>
+          <Commands command="yarn create vite" />
+          <Commands command="yarn" />
+          <Commands command="yarn dev" />
+        </div>
       </div>
     </div>
   );

@@ -1,5 +1,6 @@
 import React from "react";
 import Aside from "../components/Aside";
+import TerminalBox from "../components/TerminalBox";
 
 const ViteDoc = () => {
   return (
@@ -10,8 +11,7 @@ const ViteDoc = () => {
         <h1 className="text-center text-blue-200 font-semibold text-3xl md:text-5xl py-4">
           Getting started with Vite
         </h1>
-
-        <code>yarn create vite</code>
+        <TerminalBox />
       </div>
     </div>
   );
