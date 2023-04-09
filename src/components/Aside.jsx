@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 const Aside = () => {
   const navigate = useNavigate();
   return (
-    <div className=" lg:flex hidden lg:flex-col gap-2 p-2 md:p-4 bg-gradient-to-r from-gray-700 via-[#5e93e4] to-[#444] border-r-2 border-[#5e93e4] min-h-[92vh] top-[8vh] left-0 max-w-sm w-full">
+    <div className="lg:flex hidden lg:flex-col gap-2 p-2 md:p-4 bg-gradient-to-tr from-gray-700 via-[#45628f] to-[#444] border-r-2 border-[#5e93e4] min-h-[92vh] top-[8vh] left-0 max-w-sm w-full">
       {Data.map((data) => (
         <div
           onClick={() => {

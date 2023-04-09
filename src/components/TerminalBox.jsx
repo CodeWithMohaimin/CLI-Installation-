@@ -1,7 +1,7 @@
 import React from "react";
 import Commands from "./Commands";
 
-const TerminalBox = () => {
+const TerminalBox = (props) => {
   return (
     <div className="flex justify-center items-center mt-10 p-2">
       <div className="bg-gradient-to-tl from-violet-900 via-gray-900 to-gray-900 pl-4 py-4 max-w-xl w-full rounded-t-2xl rounded-b-md">
@@ -9,9 +9,7 @@ const TerminalBox = () => {
           Create your project
         </h1>
         <div>
-          <Commands command="yarn create vite" />
-          <Commands command="yarn" />
-          <Commands command="yarn dev" />
+          <Commands command={props.command} />
         </div>
       </div>
     </div>

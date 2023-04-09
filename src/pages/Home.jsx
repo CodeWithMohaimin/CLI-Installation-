@@ -12,7 +12,7 @@ const Home = () => {
             navigate(data.navigateUrl);
           }}
           className={
-            "max-w-xs rounded-lg p-4 delay-100 hover:bg-gray-700 cursor-pointer flex gap-4 items-center hover:scale-105 duration-150 border-l-2 border-b-2 border-gray-700 "
+            "max-w-xs rounded-lg p-4 delay-100 hover:bg-gray-700 cursor-pointer flex gap-4 items-center hover:scale-105 duration-150 border-l-2 border-b-2 border-gray-700 bg-gray-600"
           }
           key={data.id}
         >
