@@ -1,52 +1,37 @@
 [
   {
     "id": "1",
-    "navigateUrl": "/portfolio",
-    "icon": "images/portfolio.png",
-    "heading": "My Portfolio Websites",
+    "navigateUrl": "/template1",
+    "icon": "https://raw.githubusercontent.com/codedaay/images/main/facebook.png",
+    "heading": "NewsLetter 01",
     "description": "I finished this project as a Portfolio"
   },
   {
     "id": "2",
-    "navigateUrl": "/blogs",
-    "icon": "images/blogs.png",
-    "heading": "Blogs",
+    "navigateUrl": "/template2",
+    "icon": "https://raw.githubusercontent.com/codedaay/images/main/facebook.png",
+    "heading": "NewsLetter 02",
     "description": "The most effective blogs for developers"
   },
-
   {
     "id": "3",
-    "navigateUrl": "/vite",
-    "icon": "images/vite.png",
-    "heading": "Vite",
-    "description": "Fast and development server and build tools"
+    "navigateUrl": "/template3",
+    "icon": "https://raw.githubusercontent.com/codedaay/images/main/facebook.png",
+    "heading": "NewsLetter 03",
+    "description": "The most effective blogs for developers"
   },
   {
     "id": "4",
-    "navigateUrl": "/react",
-    "icon": "images/react.png",
-    "heading": "Create React App",
-    "description": "CLI tools for scaffolding a new single page application."
+    "navigateUrl": "/template4",
+    "icon": "https://raw.githubusercontent.com/codedaay/images/main/facebook.png",
+    "heading": "NewsLetter 04",
+    "description": "The most effective blogs for developers"
   },
   {
     "id": "5",
-    "navigateUrl": "/react-router",
-    "icon": "images/react-router.png",
-    "heading": "React Router",
-    "description": "Use React Router to Route SPA pages"
-  },
-  {
-    "id": "6",
-    "navigateUrl": "/svelte",
-    "icon": "images/svelte.png",
-    "heading": "SvelteKit",
-    "description": "The faster way to build apps of all sizes with Svelte.js"
-  },
-  {
-    "id": "7",
-    "navigateUrl": "/kratos",
-    "icon": "images/kratos.png",
-    "heading": "Life Lines",
-    "description": "The most effective quotes from FarFromWeak"
+    "navigateUrl": "/template5",
+    "icon": "https://raw.githubusercontent.com/codedaay/images/main/facebook.png",
+    "heading": "NewsLetter 05",
+    "description": "The most effective blogs for developers"
   }
 ]
